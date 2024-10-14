@@ -1,0 +1,40 @@
+Zad 3
+Błędy w kodzie:
+Niewłaściwe nawiasy: W CSS używamy nawiasów klamrowych {} zamiast okrągłych ()
+Błędna składnia w stylach
+W CSS stosuje się : zamiast = przy przypisywaniu wartości (np. position: absolute;, a nie position="absolute";)
+Błędne znaczniki <left> i <top>
+W CSS nie używa się znaczników HTML (<left>, <top>). Powinno być po prostu left i top
+Błędna wartość z-index
+Zamiast małej litery "l", powinno być poprawne 1 (cyfra), ponieważ z-index przyjmuje wartości liczbowe
+Błędy interpunkcyjne
+Pozycje CSS muszą być oddzielone średnikami, a nie przecinkami (np. po top: 100px musi być średnik, a nie przecinek)
+
+Poprawiony kod CSS:
+#tlo {
+    position: absolute;
+    left: 1080px;
+    top: 100px;
+    z-index: 1;
+}
+
+*tekst {
+    position: absolute;
+    left: 115px;
+    top: 115px;
+    z-index: -400;
+}
+Zad 4
+Symbol jednostki	Nazwa jednostki	Rodzaj jednostki	Opis zastosowania
+px	Piksel	Jednostka bezwzględna	Stała jednostka oparta na pikselach ekranu. Najczęściej stosowana w określaniu wielkości elementów i odstępów. Wartość niezależna od rozdzielczości ekranu.
+em	Em	Jednostka względna	Wartość odnosi się do rozmiaru czcionki elementu nadrzędnego. 1 em to aktualna wielkość czcionki. Pozwala na skalowanie elementów w zależności od wielkości tekstu.
+pc	Pica	Jednostka bezwzględna	Rzadko używana jednostka stosowana głównie w typografii drukowanej. 1 pc = 12 punktów (pt) = 1/6 cala.
+pt	Punkt	Jednostka bezwzględna	Powszechnie używana jednostka w druku. 1 pt = 1/72 cala. Stosowana głównie w określaniu wielkości czcionek w typografii.
+%	Procent	Jednostka względna	Wartość procentowa odnosząca się do wartości nadrzędnego elementu. Używana do określania szerokości, wysokości, rozmiarów czcionek, marginesów itp., w stosunku do elementu rodzica.
+in	Cal	Jednostka bezwzględna	Jednostka miary bezwzględnej, gdzie 1 in = 2.54 cm. Stosowana głównie w przypadku drukowania i mediów fizycznych.
+Test 8:
+Zadanie 1: B. CSS
+Zadanie 2: A. atrybutem
+Zadanie 3: B. zewnętrznego
+Zadanie 4: C. tylko w modelu liniowym
+Zadanie 5: B. bloki

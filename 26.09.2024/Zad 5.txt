@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z Banerem, Menu, Treścią i Stopką</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Stylizacja banera */
+        #baner {
+            background-color: #cc9966;
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            line-height: 100px;
+        }
+
+        /* Stylizacja menu */
+        #menu {
+            background-color: #32CD32;
+            width: 200px;
+            height: 100px; /* Ustawiono wysokość menu na 1/3 */
+            float: left;
+            color: white;
+            text-align: center;
+            line-height: 100px; /* Wyśrodkowanie tekstu w pionie */
+        }
+
+        /* Stylizacja treści strony */
+        #tresc {
+            background-color: #ffff33;
+            margin-left: 200px;
+            height: 300px;
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 300px;
+        }
+
+        /* Stylizacja stopki */
+        #stopka {
+            background-color: #990033;
+            height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+            line-height: 50px;
+            clear: both; /* Wymuszenie nowego kontekstu dla stopki */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Baner -->
+    <div id="baner">
+        BANER
+    </div>
+
+    <!-- Menu i treść strony -->
+    <div id="menu">
+        MENU
+    </div>
+    <div id="tresc">
+        TREŚĆ STRONY
+    </div>
+
+    <!-- Stopka -->
+    <div id="stopka">
+        STOPKA
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpy Salzburskie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            padding: 0;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        img {
+            display: block;
+            margin: 50px auto 0 auto;
+            width: 800px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Alpy Salzburskie to niezwykle urokliwy region położony w Austrii, który przyciąga turystów z całego świata. Malownicze szczyty, bogata flora i fauna oraz krystalicznie czyste jeziora tworzą scenerię idealną dla miłośników natury. Region ten obfituje w różnorodne szlaki turystyczne, które prowadzą przez urokliwe doliny i wspinają się na wybitne szczyty, takie jak Grossvenediger (3666 m n.p.m.), Hochkönig (2941 m n.p.m.) i wiele innych. Wędrując po Alpach Salzburskich, można spotkać dzikie zwierzęta, takie jak kozice, świstaki, a także liczne gatunki ptaków, które zamieszkują te wysokogórskie tereny. Alpy Salzburskie są również rajem dla miłośników sportów zimowych. W sezonie zimowym region zamienia się w popularne centrum narciarskie, oferując trasy narciarskie o różnym stopniu trudności oraz nowoczesną infrastrukturę. Słynne kurorty narciarskie, takie jak Zell am See, Kaprun czy Saalbach-Hinterglemm, przyciągają entuzjastów białego szaleństwa zarówno z Europy, jak i z innych części świata. Dzięki bogatej ofercie rozrywek zimowych, takich jak snowboard, narciarstwo biegowe, kuligi czy wspinaczki lodowe, każdy turysta znajdzie coś dla siebie. Jednak nie tylko zimą Alpy Salzburskie mają wiele do zaoferowania. W okresie letnim stają się idealnym miejscem dla wspinaczy, rowerzystów górskich i pasjonatów pieszych wędrówek. Zielone łąki, kwitnące alpejskie rośliny oraz błękitne niebo tworzą niepowtarzalny krajobraz. Jeziora, takie jak jezioro Zeller czy jezioro Wolfgangsee, oferują możliwość kąpieli i uprawiania sportów wodnych. Wędrówki po alpejskich szlakach umożliwiają odkrywanie ukrytych wodospadów, jaskiń oraz urokliwych wiosek, które wciąż zachowują swoją tradycyjną architekturę. Alpy Salzburskie to także miejsce o bogatej kulturze i historii. W regionie można odwiedzić liczne zabytki, w tym zamki, twierdze i kościoły, które są świadectwem burzliwej przeszłości tego obszaru. Wiele z tych miejsc oferuje wspaniałe widoki na otaczające góry, a ich zwiedzanie pozwala na głębsze zrozumienie kultury i dziedzictwa tego regionu.
+    </p>
+    <img src="https://example.com/alpy-salzburskie.jpg" alt="Widok na Alpy Salzburskie">
+</body>
+</html>
